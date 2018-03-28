@@ -7,7 +7,7 @@ multiline comment
 
 # in PyCharm, right click and select run 'programming_101' to execute
 
-print('Hello, world!')
+print('Hello, Rick!')
 
 # -----------------
 #  PRIMITIVE DATA TYPES
@@ -21,7 +21,7 @@ print('Hello, world!')
 
 """
   bool - boolean
-  True/False
+  true/false
 
   PRACTICE: Print a boolean value to the console
 """
@@ -50,7 +50,11 @@ print('Hello, world!')
 
   PRACTICE: Create a list that contains the names of three people
 """
+todo_list = ['eat', 'sleep']
 
+for todo in todo_list:
+    print(todo)
+print(todo_list[1])
 """
   dict
   {}, {'key', 'value}
